@@ -1,3 +1,0 @@
-Project Description:
-
-Examine the role of macrophages and NK cells after stim and no stim for DE genes and DE transcripts. Examine the role of novel transcripts 
