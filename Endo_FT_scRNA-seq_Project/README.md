@@ -1,27 +1,13 @@
-Here’s the path to the raw fastq files in SMGLab… SMG_Data, Sequencing_data, 20210226_scRNAseq_FT_endo, 20210226_raw_fastqfiles 
+Single cell RNA-seq Experiment
 
  
-
-We have 8 total samples. The experimental design was to look at sorted CD45+ immune cells from: 
+ 8 total samples. The experimental design was to look at sorted CD45+ immune cells from: 
 
 endometrial biopsies from the “window of implantation” (around the time of ovulation, pre pregnancy): Endo_63, Endo_69, Endo_71, Endo_72 
 
 the same tissue, now called decidua, from first trimester elective terminations of pregnancy: FT_130, FT_131, FT_135, FT_149 
 
- 
-
-A month or two before you interviewed, I was desperate for help with analysis help and bit on an online platform called BioBox. It just runs R in the background through a server with standard Seurat pathways. It’s brand new and still rough around the edges. It was great for at least running data thru quickly, getting cluster vs all DEGs to assign cluster IDs, and performing and integrated analysis to compare two groups against each other (like this experimental design and a very similar dataset we can talk about next). The issue is it doesn’t generate publication-quality data or have full functionality of a skilled human hahaha. Here’s what I got from my analysis (I added the little blue lines manually to orient me). 
-
- 
-
- 
-
- 
-
- 
-
- 
-
+ Biobox online platform used for intitial data analysis pipeline and clustering.
  
 
  
