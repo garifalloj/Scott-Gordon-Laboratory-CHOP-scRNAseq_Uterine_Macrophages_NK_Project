@@ -17,3 +17,11 @@ Downstream DE in DEseq2.
 Novel transcript assembly:
 
 Transcripts assembled by stringtie (JHU)
+
+Need to identify transcripts from the stringtie based data with isoformAnalyzerR package: issue with annotation fasta/references, can't annotate ORFs
+Could possibly identify differentially expressed transcripts across the CD122 mutants in DEseq2 and/or visualize those transcripts in Ballgown R package.
+
+Maybe SCISSOR for transcript shape changes? Would be applicable for particular genes. Maybe Il2rb? or any others that are highly DE in CD122mutants?
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7804101/
+Can it be run on multiple genes and samples??
+
