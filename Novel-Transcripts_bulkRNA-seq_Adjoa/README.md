@@ -16,6 +16,9 @@ Downstream DE in DEseq2.
 
 Novel transcript assembly:
 
+Overall pipeline:
+https://www.nature.com/articles/nprot.2016.095#Tab1
+
 Transcripts assembled by stringtie (JHU)
 
 Need to identify transcripts from the stringtie based data with isoformAnalyzerR package: issue with annotation fasta/references, can't annotate ORFs
