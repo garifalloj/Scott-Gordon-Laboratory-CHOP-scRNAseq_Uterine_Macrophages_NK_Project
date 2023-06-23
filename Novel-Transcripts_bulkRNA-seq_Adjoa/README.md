@@ -7,7 +7,7 @@ bulkRNAseq libraries performed with TruSeq total RNAseq with ribo depletion. 150
 GRCm38/mm10 reference for previous qPCR experiments.
 
 Bioinformatics Updates:
-libraries aligned with STAR 2.7.10 (ensembl GRCm38 with 150bp read length index) and salmon gencode for pseudo alignment/quantification.
+libraries aligned with STAR 2.7.10 (ensembl GRCm38 with 150bp read length index). Salmon pseudoalignment/quantification with gencode reference also performed, not currently used downstream.
 
 gene counting in Rsubread with featureCounts algorithm.
 
@@ -18,6 +18,7 @@ Novel transcript assembly:
 
 Overall pipeline:
 https://www.nature.com/articles/nprot.2016.095#Tab1
+fastq files -> STAR genome mapped BAMs -> stringtie with guided reference annotations gtf -> stringtie merge for all samples -> stringtie with merged annotations -> ballgown and DESeq2 transcript expression.
 
 Transcripts assembled by stringtie (JHU)
 
