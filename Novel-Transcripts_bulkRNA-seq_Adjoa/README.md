@@ -18,7 +18,10 @@ Novel transcript assembly:
 
 Overall pipeline:
 https://www.nature.com/articles/nprot.2016.095#Tab1
-fastq files -> STAR genome mapped BAMs -> stringtie with guided reference annotations gtf -> stringtie merge for all samples -> stringtie with merged annotations -> ballgown and DESeq2 transcript expression.
+fastq files -> STAR genome mapped BAMs -> stringtie with guided reference annotations gtf -> stringtie merge for all samples -> stringtie with merged annotations -> 
+1) ballgown for transcript visualizations.
+2) prepDE.py3 script to estimate transcript expression based on stringtie coverage values -> DESeq2 pipeline.
+
 
 Transcripts assembled by stringtie (JHU)
 
