@@ -5,13 +5,19 @@ Pipelines analyzed:
 #for each mapping and cell calling algorithm, the 10x Genomics human GRCh38 default reference was utilized. In cases of pseudo-alignment (kallisto-BUS, alevin), the same reference was utilized to create an appropriate reference index.
 
 1_cellranger_standard_seurat_anchor_integration_byCondition
+
 2_starSolo_standard_seurat_anchor_integration_byCondition
+
 3_kallistoBus_standard_seurat_anchor_integration_byCondition
+
 4_alevin_standard_seurat_anchor_integration_byCondition
 
 5_cellranger_harmony_integration_byCondition
+
 6_starSolo_harmony_integration_byCondition
+
 7_kallistoBus_harmony_integration_byCondition
+
 8_alevin_harmony_integration_byCondition
 
 #pipeline outputs were used to create cell x gene barcode matrices and used as input into seurat v5. Matrices were filtered to only keep cells expressing between 200-4000 genes and less than 20% mitochondrial content. 
