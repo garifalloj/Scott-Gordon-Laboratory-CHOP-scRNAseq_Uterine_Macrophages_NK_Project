@@ -1,4 +1,4 @@
-### Uterine macrophages and NK cells exhibit population-and gene-level changes after implantation but maintain pro-invasive properties
+# Uterine macrophages and NK cells exhibit population-and gene-level changes after implantation but maintain pro-invasive properties
 
 Abstract here
 
@@ -17,7 +17,7 @@ library(monocle)
 
 ```
 
-# Individual R scripts are in the scripts subfolder
+### Individual R scripts are in the scripts subfolder
 
 
 
