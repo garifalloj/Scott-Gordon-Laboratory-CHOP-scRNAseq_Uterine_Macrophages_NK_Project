@@ -1,8 +1,19 @@
 ### Uterine macrophages and NK cells exhibit population-and gene-level changes after implantation but maintain pro-invasive properties
 
-#single cell RNA-seq Analysis in R
+Abstract here
 
-### Project Description
+### Code Availability
+
+This repository will contain all associated scripts to replicate the analyses provided in the manuscript. All analyses were performed in the R statistical computing environment. Libraries utilized:
+
+```
+library(Seurat)
+library(dplyr)
+library(patchwork)
+library(UCell)
+library(singleR)
+library(singleCellExperiment)
+library(monocle)
 
 ```
 test_code_block_here
