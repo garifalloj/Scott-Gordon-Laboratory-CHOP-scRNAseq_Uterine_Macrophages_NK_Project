@@ -2,6 +2,10 @@
 
 Abstract here
 
+### Bioinformatics Strategy
+
+Raw data from sequencing was processed using the cell ranger pipeline (10x Genomics) to demultiplex data into per library cell barcode matrices. Cell barcode matrices were 
+
 ### Code Availability
 
 This repository will contain all associated scripts to replicate the analyses provided in the manuscript. All analyses were performed in the R statistical computing environment. Libraries utilized:
@@ -19,8 +23,15 @@ library(monocle)
 
 ### Individual R scripts are in the scripts subfolder
 
+Scripts organized by process.
 
+### Public Data
 
+Data is available through the NCBI GEO portal, accession number GEO1241532532. GEO uploads in the fastq files and the processed count matrices for each library. 
+
+### Additional Processed Data
+
+Additional processed data for the fresh and frozen analysis can be located here [URL].
 
 
 
@@ -31,7 +42,7 @@ endometrial biopsies from the “window of implantation” (around the time of o
 
 the same tissue, now called decidua, from first trimester elective terminations of pregnancy: FT_130, FT_131, FT_135, FT_149 
 
- ### Biobox online platform used for intitial data analysis pipeline and clustering.
+ Biobox online platform used for intitial data analysis pipeline and clustering.
  
 
  
