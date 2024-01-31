@@ -4,7 +4,7 @@ Abstract here
 
 ### Bioinformatics Strategy
 
-Raw data from sequencing was processed using the cell ranger pipeline (10x Genomics) to demultiplex data into per library cell barcode matrices. Cell barcode matrices were 
+Raw data from sequencing was processed using the cell ranger pipeline (10x Genomics) to demultiplex data into per library cell barcode matrices. Cell barcode matrices were used as input into Seurat, filtered for quality thresholds and aggregated. Aggregated data was normalized using the sctransform normalization method. To account for differences between the Endometrium and first trimester samples, an integrated method seurat anchor integration, was utilized to ensure robustness of clustering into appropriate cell type-clusters and account for possible batch effects.  
 
 ### Code Availability
 
@@ -18,6 +18,8 @@ library(UCell)
 library(singleR)
 library(singleCellExperiment)
 library(monocle)
+library(ggplot2)
+library(Rcolorbrewer)
 
 ```
 
