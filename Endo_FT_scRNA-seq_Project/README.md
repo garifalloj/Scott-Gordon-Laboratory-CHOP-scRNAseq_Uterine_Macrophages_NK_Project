@@ -25,13 +25,32 @@ library(Rcolorbrewer)
 
 R version 4.2.3 was utilized for this analysis. Additional sessionInfo() is stored as sessionInfo.txt in this repository.
 
+
+
+
+
 ### Individual R scripts are in the scripts subfolder
 
 Scripts organized by process.
 
+
+
+
+### Processed Outputs and Supplemental figures
+
+Per annotated clusters marker genes files and additional figures will be described here as needed.
+
+
+
+
 ### Public Data
 
 Data is available through the NCBI GEO portal, accession number GEO1241532532. GEO uploads in the fastq files and the processed count matrices for each library. 
+
+
+
+
+
 
 ### Additional Processed Data
 
@@ -39,6 +58,8 @@ Additional processed data for the fresh and frozen analysis can be located here 
 
 
 
+ 
+ 
  ### Notes and Information
  8 total samples. The experimental design was to look at sorted CD45+ immune cells from: 
 
