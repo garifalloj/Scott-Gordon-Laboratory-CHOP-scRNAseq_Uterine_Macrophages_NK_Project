@@ -21,6 +21,8 @@ library(monocle)
 
 ```
 
+R version 4.2.3 was utilized for this analysis. Additional sessionInfo() is stored as sessionInfo.txt in this repository.
+
 ### Individual R scripts are in the scripts subfolder
 
 Scripts organized by process.
@@ -35,7 +37,7 @@ Additional processed data for the fresh and frozen analysis can be located here 
 
 
 
- 
+ ### Notes and Information
  8 total samples. The experimental design was to look at sorted CD45+ immune cells from: 
 
 endometrial biopsies from the “window of implantation” (around the time of ovulation, pre pregnancy): Endo_63, Endo_69, Endo_71, Endo_72 
