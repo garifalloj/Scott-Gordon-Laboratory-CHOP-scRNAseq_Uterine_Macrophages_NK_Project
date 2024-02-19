@@ -1,5 +1,12 @@
 # Scott-Gordon-Laboratory
 
-#this repo will store all project specific scripts and intermediate/final data objects.
+This repository will store all code for related published projects.
 
-#individual subfolders for each project. Objects, scripts, and finalized datasets will be pushed to each repo.
+## Structure
+
+Each subdirectory within the repo will contain one project. Project specific repos are organized with some or all of the following as needed: 
+
+1. code
+2. figures
+3. additional notes
+
