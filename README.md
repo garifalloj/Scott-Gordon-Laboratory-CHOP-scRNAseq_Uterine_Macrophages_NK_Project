@@ -27,7 +27,7 @@ library(Rcolorbrewer)
 
 ```
 
-R version 4.2.3 was utilized for this analysis. Additional sessionInfo() is stored as sessionInfo.txt in this repository.
+R version 4.2.3 was utilized for this analysis.
 
 
 
@@ -49,16 +49,10 @@ Per annotated clusters marker genes files and additional figures will be describ
 
 ### Public Data
 
-Data is available through the NCBI GEO portal, accession number GEO1241532532. GEO uploads in the fastq files and the processed count matrices for each library. 
+Data is available through the NCBI GEO portal, accession number GSE255282. Data is uploaded as the fastq files and the processed count matrices for each library. 
 
 
 
-
-
-
-### Additional Processed Data
-
-Additional processed data for the fresh and frozen analysis can be located here [URL].
 
 
 
