@@ -49,7 +49,7 @@ Per annotated clusters marker genes files and additional figures will be describ
 
 ### Public Data
 
-Data is available through the NCBI GEO portal, accession number GSE255282. Data is uploaded as the fastq files and the processed count matrices for each library. 
+Data is available through the NCBI GEO portal, accession number GSE255282 (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE255282). Data is uploaded as the fastq files and the processed count matrices for each library. 
 
 
 
